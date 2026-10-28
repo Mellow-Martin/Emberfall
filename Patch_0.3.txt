@@ -1,0 +1,31 @@
+KATABASIS — PATCH 0.3
+
+RENAMED
+- The game is now Katabasis. Emberfall is the name of the land.
+
+NEW
+- Animated title screen: the hero falling past the mountain, with a new Katabasis logo.
+- Opening story cards for a new hero: the defeat at the Caldera, waking at the foot of the mountain, and the last burning lantern, with their own music.
+- Boss dialogue: every boss speaks before the fight and your hero answers, with new portraits for each boss and class.
+- Boss last words: each boss gets a final line when it falls, shown before the victory scroll and again on it.
+- The Pale Reach: a fourth region past the Caldera, open after Vyrmalax falls. Endless horde survival with no retreat:
+  - Five new enemies: Hollowborn Soldier, Hollowborn Sapper, Shrieker, Pall Brute and the Pallbearer (every 10th wave)
+  - Blight: hits can add Blight, each stack lowering your max health for the run
+  - Boons: every 3rd wave, choose one of three before the victory scroll
+  - Rest between waves, bonus gold every 5th wave, best wave saved per hero
+  - Its own battle music, background and map pin
+- Town tour for new players (replay it from Settings > Help).
+- First-fight tips covering Strike, skills, Bag and Run.
+- Innkeeper's advice: tap the notice at the top-left of town.
+
+CHANGED
+- Map: shows more of the top of the world, the title text is gone, and the roads from the Chapel to Cinder Peaks and from Cinder Peaks to the Caldera follow the painted paths.
+- The Pale Reach pin is larger, red and pulsing, and locked until Vyrmalax falls.
+- "Fight on" after a boss takes you to the next region.
+- The Final Stand is replaced by the Pale Reach.
+- New intro line for Old Rootmaw.
+- Settings: Heroes moved to the top, the advice list moved to the town notice, and two advice tips were removed.
+
+FIXED
+- Victory scrolls no longer say "The The …" or "The Old Rootmaw".
+- The Skip button on the story cards can now be tapped.
