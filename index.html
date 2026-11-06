@@ -660,10 +660,7 @@ h2.itab{margin:0;font-weight:400;cursor:default}
 .arrows.hasboss .bosscall{order:9}
 .frame.hasframe .arrow.cta,.frame.hasframe .arrow.cta:active{border-image:var(--ui-btn-frame) 16 / 14px round;background:linear-gradient(#b65d32,#6e3219) padding-box;filter:drop-shadow(0 3px 0 rgba(0,0,0,.45)) drop-shadow(0 0 8px rgba(200,60,30,.65))}
 .arrows .cta:only-child{grid-column:1/-1}
-.arrows.hasboss .arrow:not(.bosscall),.frame.hasui .arrows.hasboss .arrow:not(.bosscall){min-height:max(50px,14cqw);white-space:nowrap;font-size:max(17px,5cqw);color:#cfc3a8;filter:none}
-.arrows.hasboss .arrow:not(.bosscall) span{color:#cfc3a8}
-.arrows.hasboss .arrow:not(.bosscall) svg{width:max(19px,5.6cqw);opacity:.85}
-.frame.hasframe .arrows.hasboss .arrow:not(.bosscall),.frame.hasframe .arrows.hasboss .arrow:not(.bosscall):active{border-image:var(--ui-btn-frame) 16 / 14px round;background:linear-gradient(#2f2a25,#1f1c19) padding-box}
+.arrows.hasboss .arrow:not(.bosscall){white-space:nowrap}   /* Leave / Fight again keep the normal button look; only the boss call is orange */
 .frame.hasframe .arrows.hasboss .bosscall,.frame.hasframe .arrows.hasboss .bosscall:active{border-image:var(--ui-btn-frame) 16 / 14px round;background:linear-gradient(#b65d32,#6e3219) padding-box}
 .arrows.hasboss .bosscall,.frame.hasui .arrows.hasboss .bosscall{min-height:max(72px,20cqw);justify-content:space-between;padding:0 1.6cqw 0 3.4cqw;gap:3cqw}
 .arrows.hasboss .bosscall .tx{align-items:flex-start;text-align:left;min-width:0}
@@ -2729,7 +2726,7 @@ window.addEventListener('resize', () => tourPlace());
 
 /* ---------- Boss intro: the boss speaks, the stoic hero answers (story beat 1) ---------- */
 const BOSS_TALK = {
-  'Old Rootmaw':       {por:'por_rootmaw', say:'Fallen thing… the mountain spat you out. The roots will take you in.', die:'Let’s see how many times the mountain spits you out.'},
+  'Old Rootmaw':       {por:'por_rootmaw', say:'Fallen thing… the mountain spat you out. The roots will take you in.', die:'Let’s see how many times you fall.'},
   'The Hollow Bishop': {por:'por_bishop',  say:'The fallen one. Kill the wyrm, little light, and open the door for us.', die:'You only open the door wider.'},
   'Vyrmalax':          {por:'por_wyrm',    say:"You again. Turn back. You don't know what I keep.", die:'Now… who keeps the door?'},
   'The Pallbearer':    {por:'boss_pallbearer', die:'Another… will carry it.'}};
